@@ -17,6 +17,6 @@ public class Example {
 		List<Integer> l = s.flatMap(List::stream).collect(Collectors.toList());
 		System.out.println(l);
 		
-		
 	}
 }
+
